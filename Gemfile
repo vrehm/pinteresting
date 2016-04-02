@@ -9,6 +9,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
+gem 'sdoc', '~> 0.4.0'
 
 group :development, :test do
      gem 'sqlite3'
@@ -17,8 +18,4 @@ end
 group :production do
      gem 'pg'
      gem 'rails_12factor'
-end
-
-group: :doc do
-	gem 'sdoc', '~> 0.4.0', require: false
 end
