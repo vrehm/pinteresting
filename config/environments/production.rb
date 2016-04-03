@@ -79,5 +79,5 @@ Rails.application.configure do
 
   # Required for Heroku
   # Note : put actual registered domain
-  config.action_mailer.default_url_options = { host: 'vincentrehm.fr' }
+  config.action_mailer.default_url_options = { host: 'http://www.vincentrehm.fr' }
 end
