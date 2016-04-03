@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.4'
+ruby '2.2.1'
 
 gem 'rails', '4.2.6'
 gem 'sass-rails', '~> 5.0'
@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 gem 'sdoc', '~> 0.4.0'
+gem 'devise', '~> 4.0.0.rc2'
 
 group :development, :test do
      gem 'sqlite3'
