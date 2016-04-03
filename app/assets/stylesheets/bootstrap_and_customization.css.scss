@@ -14,9 +14,13 @@ $thumbnail-padding:                15px;
 @import 'font-awesome';
 
 .center {
-     text-align: center;
+    text-align: center;
 }
 
 .navbar-brand {
-     font-weight: bold;
+    font-weight: bold;
+}
+
+.checkbox input[type="checkbox"] {
+  margin-left: 0;
 }
