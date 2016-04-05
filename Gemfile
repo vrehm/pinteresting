@@ -12,6 +12,7 @@ gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 gem 'sdoc', '~> 0.4.0'
 gem 'devise', '~> 4.0.0.rc2'
+gem 'paperclip', '~> 4.2'
 
 group :development, :test do
      gem 'sqlite3'
