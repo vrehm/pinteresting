@@ -14,13 +14,23 @@ $thumbnail-padding:                15px;
 @import 'font-awesome';
 
 .center {
-    text-align: center;
+	text-align: center;
 }
 
 .navbar-brand {
-    font-weight: bold;
+	font-weight: bold;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
+
+//.navbar-btn {
+//	color: #c0392b;
+//}
 
 .checkbox input[type="checkbox"] {
   margin-left: 0;
+}
+
+.navbar-nav > li > a {
+	line-height: 50px;
 }
